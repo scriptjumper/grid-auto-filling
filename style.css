@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, 150px);
+}
+
+
+.wrapper div {
+    background-color: red;
+    border: 5px solid blue;
+    width: 25%;
+    height: 25%;
+}
